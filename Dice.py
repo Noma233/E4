@@ -1,4 +1,10 @@
 import random 
+
+print('What is your name?')
+print('>', end="")
+name = input()
+print('Hello,', name, '!!')
+
 print('Rolling the dice...')
 
 x1 = random.randrange(5) + 1
@@ -9,4 +15,3 @@ print("Die 2: ", x2)
 
 print("Total value: ", x1 + x2)
 
-	
